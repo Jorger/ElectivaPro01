@@ -1,0 +1,33 @@
+body
+{
+	/*background-color: gray; */
+	color: white;
+	font-family: Arial;
+	font-size: 18px;
+}
+#caja, input
+{
+	border: 2px solid red;
+	padding: 5px;
+	margin: 5px;
+	margin-top: 10px;
+	background-color: blue;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 20px;
+	color: red;
+	box-shadow: 5px 5px 1px rgba(50, 50, 50, 0.75);
+}
+
+.cajas
+{
+	border: 2px solid yellow;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 20px 50px 20px 0px;
+	background-image: url("firmamento.png");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	box-shadow: 5px 5px 1px rgba(50, 50, 50, 0.75);
+	height: 50px;
+}
