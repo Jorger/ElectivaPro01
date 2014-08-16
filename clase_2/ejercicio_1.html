@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<link href='http://fonts.googleapis.com/css?family=Montez' rel='stylesheet' type='text/css'>
+<style>
+	.redondeado
+	{
+		/*
+			Izquierda arriba
+			Derecha arriba
+			Abajo derecha
+			abajo izquierda
+
+		*/
+		border: 2px solid red;
+		border-radius: 10px 10px 0px 0px;
+		box-shadow: 10px 10px 10px #888888; /* x, y, difuminado, color */
+		padding: 5px;
+	}
+	#collage
+	{
+		background : url(img/img_tree.gif), url(img/img_flwr.gif), -webkit-linear-gradient(right, red, blue);
+		background-size:100% 100%;
+		background-repeat:no-repeat;
+		height: 100px;
+		width: 100px;
+		border: 1px solid green;
+		background-color: yellow;
+		left: 50px;
+		position: relative;
+	}
+	#gradiante
+	{
+		/*Posción*/
+		background: -webkit-linear-gradient(right, red, blue);
+		padding: 10px;
+	}
+
+	#transparente
+	{
+		background: -webkit-linear-gradient(left, rgba(255,0,0,0), rgba(255,0,0,1));
+		padding: 10px;
+	}
+	#espiral
+	{
+		height:150px;
+		width:200px;
+		background: -webkit-repeating-radial-gradient(red, yellow 10%, green 15%);
+	}
+	h1.texto
+	{
+		text-shadow : 5px 5px 5px gray;
+		font-family: 'Montez', cursive;
+	}
+</style>
+<body>
+	<div class = 'redondeado'> Contenido </div>
+	<br>
+	<div class = 'redondeado'> Contenido 2 </div>
+	<br>
+	<div id="collage">
+		
+	</div>
+	<br>
+	<div id="gradiante">
+		
+	</div>
+	<div id="transparente">
+		Prueba
+	</div>
+	<div id="espiral">
+		Una espiral Jorge
+	</div>
+	<h1 class = 'texto'>Hola Mundo</h1>
+	<h1 class = 'texto'>Segundo Hola</h1>
+
+</body>
+</html>

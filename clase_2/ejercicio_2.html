@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	.cuadrado
+	{
+		background-color: gray;
+		border: 1px solid red;
+		color: white;
+		height: 100px;
+		padding: 5px;
+		width: 100px;
+		font-family: Arial;
+		font-weight: bold; /* cmd + ctrl + up*/ 
+	}
+	#rotar
+	{
+		position: relative;
+		left: 30px;
+		top: 30px;
+		-webkit-transform:rotate(40deg);
+
+	}
+	#traslada
+	{
+		-webkit-transform:translate(100px,200px);
+	}
+	#escala
+	{
+		position: relative;
+		left: 400px;
+		top: 30px;
+		-webkit-transform:scale(2,2);
+	}
+	#transicion
+	{
+		-webkit-transition:width 2s, height ss;
+	}
+	#transicion:hover
+	{
+		width: 400px;
+		height: 600px;
+	}
+
+	#animarotar
+	{
+		-webkit-transition:width 2s, height 2s, -webkit-transform 2s;
+		transition-delay:2s; /* tiempo de inicio de la animación */
+	}
+
+	#animarotar:hover
+	{
+		-webkit-transform:rotate(180deg);
+	}
+
+	</style>
+</head>
+<body>
+	<div id="rotar" class = 'cuadrado'>
+		Rota
+	</div>
+	<div id="traslada" class = 'cuadrado'>
+		Traslada
+	</div>
+	<div id="escala" class = 'cuadrado'>
+		Escalar
+	</div><br><br><br><br>
+	<div id="transicion" class = 'cuadrado'>
+		Transición
+	</div>
+	<div id="animarotar" class = 'cuadrado'>
+		Anima
+	</div>
+</body>
+</html>
