@@ -1,0 +1,17 @@
+#personaje, #personaje2
+{
+	border: 1px solid red;
+	width: 72px;
+	height: 72px;	
+}
+
+.caminar
+{
+	background: url(../img/caminar.png) no-repeat top left;
+}
+
+.paso_1{ background-position: 0 -476px;} 
+.paso_2{ background-position: 0 -238px; } 
+.paso_3{ background-position: 0 -357px;} 
+.paso_4{ background-position: 0 -119px; } 
+.paso_5{ background-position: 0 0; } 
