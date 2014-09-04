@@ -1,0 +1,59 @@
+body
+{
+	background-color: black;
+	color: white;
+}
+
+#escenario
+{
+	margin-top: 10px;
+	position: relative;
+	background-image: url(../img/fondo.png);
+	background-size: 600px 400px;
+	background-repeat:no-repeat;
+	width: 600px;
+	height: 400px;
+}
+
+#personaje
+{
+	width: 70px;
+	height: 70px;
+	/*border: 1px solid red; */
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#llama
+{
+	width: 70px;
+	height: 70px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-image: url(../img/brillo.gif);
+}
+
+.basepersonaje
+{
+	background-image: url(../img/personaje.png);
+}
+
+.front_1{ background-position: 0 0; width: 64px; height: 64px; } 
+.front_2{ background-position: -69px 0; width: 64px; height: 64px; } 
+.front_3{ background-position: -138px 0; width: 64px; height: 64px; } 
+.front_4{ background-position: -207px 0; width: 64px; height: 64px; } 
+.left_1{ background-position: -276px 0; width: 64px; height: 64px; } 
+.left_2{ background-position: -345px 0; width: 64px; height: 64px; } 
+.left_3{ background-position: -414px 0; width: 64px; height: 64px; } 
+.left_4{ background-position: -483px 0; width: 64px; height: 64px; } 
+.right_1{ background-position: -552px 0; width: 64px; height: 64px; } 
+.right_2{ background-position: -621px 0; width: 64px; height: 64px; } 
+.right_3{ background-position: -690px 0; width: 64px; height: 64px; } 
+.right_4{ background-position: -759px 0; width: 64px; height: 64px; } 
+.top_1{ background-position: -828px 0; width: 64px; height: 64px; } 
+.top_2{ background-position: -897px 0; width: 64px; height: 64px; } 
+.top_3{ background-position: -966px 0; width: 64px; height: 64px; } 
+.top_4{ background-position: -1035px 0; width: 64px; height: 64px; } 
