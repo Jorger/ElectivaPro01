@@ -1,0 +1,17 @@
+body
+{
+	background-color: #424100;
+	color: white;
+	font-size: 20px;
+	font-family: Arial;
+}
+a
+{
+	color: white;
+}
+
+#detiene
+{
+	width: 100%;
+	font-size: 30px;
+}
